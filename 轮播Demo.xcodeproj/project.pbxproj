@@ -13,6 +13,7 @@
 		81579F31201F273E00B57445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81579F30201F273E00B57445 /* Assets.xcassets */; };
 		81579F34201F273E00B57445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81579F32201F273E00B57445 /* LaunchScreen.storyboard */; };
 		81579F37201F273F00B57445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81579F36201F273F00B57445 /* main.m */; };
+		81579FD12020941100B57445 /* ZCScrollImageDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81579FD02020941100B57445 /* ZCScrollImageDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		81579F33201F273E00B57445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81579F35201F273F00B57445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81579F36201F273F00B57445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81579FCD202093F300B57445 /* ZCScrollImageDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCScrollImageDemoController.h; sourceTree = "<group>"; };
+		81579FD02020941100B57445 /* ZCScrollImageDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCScrollImageDemoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				81579F28201F273A00B57445 /* AppDelegate.m */,
 				81579F2A201F273A00B57445 /* ViewController.h */,
 				81579F2B201F273B00B57445 /* ViewController.m */,
+				81579FCD202093F300B57445 /* ZCScrollImageDemoController.h */,
+				81579FD02020941100B57445 /* ZCScrollImageDemoController.m */,
 				81579F2D201F273C00B57445 /* Main.storyboard */,
 				81579F30201F273E00B57445 /* Assets.xcassets */,
 				81579F32201F273E00B57445 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81579FD12020941100B57445 /* ZCScrollImageDemoController.m in Sources */,
 				81579F2C201F273B00B57445 /* ViewController.m in Sources */,
 				81579F37201F273F00B57445 /* main.m in Sources */,
 				81579F29201F273A00B57445 /* AppDelegate.m in Sources */,
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN98Y2FA43;
 				INFOPLIST_FILE = "轮播Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZhangChuan.--Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UN98Y2FA43;
 				INFOPLIST_FILE = "轮播Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZhangChuan.--Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
